@@ -13,7 +13,7 @@ class _CreateDetectionPageState extends State<CreateDetectionPage> {
   ui.Image? normalizedUiImage;
 
   NormalizedImage? normalizedImage;
-  TextEditingController _nameController = TextEditingController();
+  final TextEditingController _nameController =  TextEditingController();
 
   //Init Document results and scan results
   @override

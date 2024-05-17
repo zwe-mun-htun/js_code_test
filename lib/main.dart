@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
+import 'package:js_code_test/src/presentations/cubit/detection_list/detection_list_cubit.dart';
 
 import 'src/core/services/doucment_scanner.dart';
 import 'src/core/services/firebase_options.dart';

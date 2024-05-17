@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:js_code_test/src/presentations/views/views.dart';
 
 import '../data/model/document_data.dart';
+import '../presentations/views/detection_list/detection_list_page.dart';
 
 class Routes {
   static const splash = '/';
@@ -25,6 +26,9 @@ class Routes {
         return buildRoute(CreateDetectionPage(
           documentData: data,
         ));
+
+      case myUploads: 
+        return buildRoute(const DetectionListPage());
 
       default:
         throw Exception('Route does not exists');
