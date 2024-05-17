@@ -14,4 +14,6 @@ Future<void> injectDependencies() async {
   // Cubit
   injector.registerLazySingleton<CreateDetectionCubit>(
       () => CreateDetectionCubit());
+
+  injector.registerLazySingleton<DetectionListCubit>(() => DetectionListCubit());
 }
