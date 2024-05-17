@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:js_code_test/src/presentations/views/views.dart';
 
+import '../data/model/document_data.dart';
+
 class Routes {
   static const splash = '/';
   static const home = '/home';
@@ -17,6 +19,12 @@ class Routes {
     switch (settings.name) {
       case home:
         return buildRoute(const CameraPage());
+
+      case uploadDetection:
+        DocumentData data = settings.arguments as DocumentData;
+        return buildRoute(CreateDetectionPage(
+          documentData: data,
+        ));
 
       default:
         throw Exception('Route does not exists');
