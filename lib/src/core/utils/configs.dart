@@ -1,0 +1,7 @@
+class Configs {
+
+  static String kScannerKey =
+      "DLS2eyJoYW5kc2hha2VDb2RlIjoiMTAyODM4NjkwLVRYbFhaV0pRY205cSIsIm1haW5TZXJ2ZXJVUkwiOiJodHRwczovL21kbHMuZHluYW1zb2Z0b25saW5lLmNvbSIsIm9yZ2FuaXphdGlvbklEIjoiMTAyODM4NjkwIiwic3RhbmRieVNlcnZlclVSTCI6Imh0dHBzOi8vc2Rscy5keW5hbXNvZnRvbmxpbmUuY29tIiwiY2hlY2tDb2RlIjoxMjI1NTAyMzE2fQ==";
+  
+}
+
